@@ -33,15 +33,18 @@ const Header = () => {
 };
 export default Header;
 const HeaderContainer = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 `;
 const Ul = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
+  z-index: 2;
   li {
     list-style-type: none;
   }
@@ -52,6 +55,7 @@ const Ul = styled.ul`
     font-weight: 500;
     line-height: 14px;
     text-decoration: none;
+    padding: 2px 40px 12px 40px;
 
     &:hover {
       color: ${defaultTheme.colors.white};

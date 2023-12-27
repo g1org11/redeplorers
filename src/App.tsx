@@ -1,13 +1,13 @@
 import "./App.css";
 import styled from "styled-components";
-import Header from "./componens/Header";
 import GlobalStyles from "./GlobalStyling";
+import Main from "./Pages/Main";
 
 function App() {
   return (
     <Container>
       <GlobalStyles />
-      <Header />
+      <Main />
     </Container>
   );
 }
