@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { defaultTheme } from "../defaultTheme";
 import heroimg from "../assets/mian1.png";
+import location from "../assets/location.png";
 
 const Hero = () => {
   return (
@@ -13,6 +14,7 @@ const Hero = () => {
         <h1>Leave your mark on all over the world </h1>
         <button>Read More</button>
       </HeroContent>
+      <LocationImg src={location} alt="location" />
     </HeroContainer>
   );
 };
@@ -45,7 +47,7 @@ const HeroContent = styled.div`
     }
   }
   h1 {
-    width: 900px;
+    width: 700px;
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
@@ -63,4 +65,9 @@ const HeroContent = styled.div`
     border-radius: 8px;
     background-color: ${defaultTheme.colors.blue};
   }
+`;
+const LocationImg = styled.img`
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
 `;

@@ -5,7 +5,7 @@ export const defaultTheme = {
     orange: "#FFA500",
     blue: "#0336FF",
   },
-  background: "#fff",
+  background: "#FFFEFE",
   fonts: {
     primary: " 'Lato', sans-serif",
     secondary: "'Roboto', sans-serif",
