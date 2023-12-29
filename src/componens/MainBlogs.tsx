@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import AboutMe from "./MainBlogsKomponents/AboutMe";
+import Categories from "./MainBlogsKomponents/Categories";
+
 import Posts from "./MainBlogsKomponents/Posts";
 
 import post1 from "../assets/post1.png";
@@ -10,6 +12,7 @@ const MainBlogs = () => {
       <MainBlogsContainer>
         <div>
           <AboutMe />
+          <Categories />
         </div>
         <div>
           <Posts
