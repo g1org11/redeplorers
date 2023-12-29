@@ -1,19 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
-
 import loc from "../../assets/loc.svg";
 import messege from "../../assets/messege.svg";
 
-const Posts = ({ img, title, date, text, location, comments }) => {
+const MiniPosts = ({ img, title, date, location, comments }) => {
   return (
-    <PostsContainer>
+    <MiniPostContainers>
       <img src={img} alt="post1" />
       <Date>{date} </Date>
       <Postsontent>
         <h2>{title}</h2>
-        <p>{text}</p>
-        <PostsFooterDiv>
+
+        <PostsFooter>
           <LocMassegeDiv>
             <img src={loc} alt="loc" />
             <span>{location} </span>
@@ -22,20 +21,20 @@ const Posts = ({ img, title, date, text, location, comments }) => {
             <img src={messege} alt="message" />
             <span>{comments}</span>
           </LocMassegeDiv>
-        </PostsFooterDiv>
+        </PostsFooter>
       </Postsontent>
-    </PostsContainer>
+    </MiniPostContainers>
   );
 };
-export default Posts;
-const PostsContainer = styled.div`
-  width: 783px;
-  height: 862px;
+export default MiniPosts;
+const MiniPostContainers = styled.div`
+  width: 377.637px;
+  height: 636.873px;
   flex-shrink: 0;
   background-color: ${defaultTheme.colors.white};
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  position: relative;
 `;
+
 const Date = styled.p`
   margin-top: 12px;
   font-size: 18px;
@@ -45,35 +44,22 @@ const Date = styled.p`
   padding-left: 20px;
   border-left: 3px solid ${defaultTheme.colors.orange};
 `;
-
 const Postsontent = styled.div`
-  padding: 12px 10px 29px 25px;
+  padding: 12px 18px 17px 15px;
   h2 {
     font-size: 31.637px;
     font-style: normal;
     font-weight: 600;
     line-height: 46.983px;
-    margin-bottom: 10px;
-  }
-  p {
-    width: 686px;
-    margin-top: 20px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    margin-top: 72px;
   }
 `;
-const PostsFooterDiv = styled.div`
-  width: 95%;
+const PostsFooter = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  bottom: 20px;
 `;
-
 const LocMassegeDiv = styled.div`
   display: flex;
   align-items: center;
