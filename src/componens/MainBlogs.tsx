@@ -5,6 +5,11 @@ import Categories from "./MainBlogsKomponents/Categories";
 import Posts from "./MainBlogsKomponents/Posts";
 import MiniPosts from "./MainBlogsKomponents/MiniPosts";
 import BlogPost from "./MainBlogsKomponents/BlogPost";
+import PopularPosts from "./MainBlogsKomponents/PopularPosts";
+import RecentPosts from "./MainBlogsKomponents/ResentPosts";
+import GearIUse from "./MainBlogsKomponents/GearIUse";
+import Products from "./MainBlogsKomponents/Products";
+import GetInTouch from "./MainBlogsKomponents/GetInTouch";
 
 import post1 from "../assets/post1.png";
 import post2 from "../assets/post2.png";
@@ -22,6 +27,11 @@ const MainBlogs = () => {
         <div>
           <AboutMe />
           <Categories />
+          <PopularPosts />
+          <RecentPosts />
+          <GearIUse />
+          <Products />
+          <GetInTouch />
         </div>
         <div>
           <Posts

@@ -1,11 +1,19 @@
-import React from "react";
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 
 import loc from "../../assets/loc.svg";
 import messege from "../../assets/messege.svg";
 
-const Posts = ({ img, title, date, text, location, comments }) => {
+interface PostsProps {
+  img: string;
+  title: string;
+  date: string;
+  text: string;
+  location: string;
+  comments: string;
+}
+
+const Posts: React.FC<PostsProps> = ({ img, title, date, text, location, comments }) => {
   return (
     <PostsContainer>
       <img src={img} alt="post1" />

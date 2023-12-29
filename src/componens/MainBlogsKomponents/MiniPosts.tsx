@@ -3,8 +3,15 @@ import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import loc from "../../assets/loc.svg";
 import messege from "../../assets/messege.svg";
+interface MiniPostsProps {
+  img: string;
+  title: string;
+  date: string;
+  location: string;
+  comments: string;
+}
 
-const MiniPosts = ({ img, title, date, location, comments }) => {
+const MiniPosts: React.FC<MiniPostsProps> = ({ img, title, date, location, comments }) => {
   return (
     <MiniPostContainers>
       <img src={img} alt="post1" />
