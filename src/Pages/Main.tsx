@@ -1,7 +1,7 @@
-import React from "react";
 import Header from "../componens/Header";
 import Hero from "../componens/Hero";
 import MainBlogs from "../componens/MainBlogs";
+import Slider from "../componens/MainBlogsKomponents/Slider";
 
 const Main = () => {
   return (
@@ -9,6 +9,7 @@ const Main = () => {
       <Header />
       <Hero />
       <MainBlogs />
+      <Slider />
     </div>
   );
 };
