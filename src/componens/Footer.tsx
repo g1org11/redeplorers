@@ -1,13 +1,16 @@
 import styled from "styled-components";
 import logo from "../assets/Logo.svg";
 import { defaultTheme } from "../defaultTheme";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
       <FooterWrapper>
         <div>
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div>
           <Ul>
