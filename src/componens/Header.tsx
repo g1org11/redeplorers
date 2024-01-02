@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { defaultTheme } from "../defaultTheme";
 import logo from "../assets/Logo.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,19 +12,19 @@ const Header = () => {
       <div>
         <Ul>
           <li>
-            <a href="">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="">About us</a>
+            <Link to="/about">About us</Link>
           </li>
           <li>
-            <a href="">Destination</a>
+            <Link to="/destination">Destination</Link>
           </li>
           <li>
-            <a href="">Tips</a>
+            <Link to="/tips">Tips</Link>
           </li>
           <li>
-            <a href="">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </Ul>
       </div>
