@@ -1,7 +1,7 @@
 import "./App.css";
 import styled from "styled-components";
 import GlobalStyles from "./GlobalStyling";
-import Main from "./Pages/Main";
+import Main from "./Pages/MainPage";
 
 function App() {
   return (
