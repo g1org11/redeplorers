@@ -3,6 +3,7 @@ import Hero from "../componens/Hero";
 import MainBlogs from "../componens/MainBlogs";
 import Slider from "../componens/MainBlogsKomponents/Slider";
 import Subscribe from "../componens/Subscribe";
+import Footer from "../componens/Footer";
 
 const MainPage = () => {
   return (
@@ -12,6 +13,7 @@ const MainPage = () => {
       <MainBlogs />
       <Slider />
       <Subscribe />
+      <Footer />
     </div>
   );
 };

@@ -27,6 +27,7 @@ const SubscribeContainer = styled.div`
   justify-content: space-between;
   padding: 0 177px;
   margin-top: 133px;
+  margin-bottom: 120px;
 `;
 const Text = styled.p`
   width: 474px;
