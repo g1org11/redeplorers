@@ -1,4 +1,10 @@
+import AboutUsHero from "../componens/AboutusConponents/AboutUsHero";
+
 const AboutUs = () => {
-  return <div>AboutUs</div>;
+  return (
+    <div>
+      <AboutUsHero />
+    </div>
+  );
 };
 export default AboutUs;
