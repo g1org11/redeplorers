@@ -2,35 +2,32 @@ import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import dots from "../../assets/aboutus/dots.png";
 
-const About = () => {
+const CostumerSays = () => {
   return (
     <AboutContainer>
       <RightPart>
         <p>
-          Hey, We are the <Explorers>Red Explorers</Explorers> Brief History{" "}
-          <AboutSpan>About Us.</AboutSpan>{" "}
+          What <AboutSpan>Customer says</AboutSpan> <Explorers>About us</Explorers>?
         </p>
       </RightPart>
       <LeftPart>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mor mattis nec etiam ac.
-          Bibendum tellus mi imperdiet amet maecenas magna tortor nulla. Nec tortor ut cursus ornare
-          nibh vivamus. Quam elementum at velit viverra mattis.
-        </p>
-        <p>
-          Eleifend enim, praesent eu, leo semper quis et. Nisl neque malesuada arcu, felis, vitae
-          rhoncus morbi volutpat ante. Adipiscing mauris
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis ut natoque imperdiet
+          faucibus. Mi arcu, nunc imperdiet sit arcu id. In libero, nibh at malesuada nunc faucibus
+          pulvinar dolor tellus. Rhoncus lectus hendrerit pharetra vitae magna. Pharetra, tortor
+          pharetra vitae rhoncus.Lorem, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Facilisis ut.
         </p>
       </LeftPart>
     </AboutContainer>
   );
 };
 
-export default About;
+export default CostumerSays;
 
 const AboutContainer = styled.div`
-  margin-top: 650px;
-  margin-bottom: 55px;
+  /* margin-top: 650px; */
+  margin-bottom: 105px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +43,9 @@ const RightPart = styled.div`
   background-image: url(${dots});
   background-size: cover;
   p {
-    width: 505px;
+    width: 410px;
+    height: 121px;
+    flex-shrink: 0;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
