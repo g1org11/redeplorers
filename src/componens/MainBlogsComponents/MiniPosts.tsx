@@ -16,7 +16,7 @@ const MiniPosts: React.FC<MiniPostsProps> = ({ img, title, date, location, comme
     <MiniPostContainers>
       <img src={img} alt="post1" />
       <Date>{date} </Date>
-      <Postsontent>
+      <PostsContent>
         <h2>{title}</h2>
 
         <PostsFooter>
@@ -29,7 +29,7 @@ const MiniPosts: React.FC<MiniPostsProps> = ({ img, title, date, location, comme
             <span>{comments}</span>
           </LocMassegeDiv>
         </PostsFooter>
-      </Postsontent>
+      </PostsContent>
     </MiniPostContainers>
   );
 };
@@ -51,7 +51,7 @@ const Date = styled.p`
   padding-left: 20px;
   border-left: 3px solid ${defaultTheme.colors.orange};
 `;
-const Postsontent = styled.div`
+const PostsContent = styled.div`
   padding: 12px 18px 17px 15px;
   h2 {
     font-size: 31.637px;
