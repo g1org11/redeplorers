@@ -1,15 +1,15 @@
 import styled from "styled-components";
-import AboutMe from "./MainBlogsKomponents/AboutMe";
-import Categories from "./MainBlogsKomponents/Categories";
+import AboutMe from "./MainBlogsComponents/AboutMe";
+import Categories from "./MainBlogsComponents/Categories";
 
-import Posts from "./MainBlogsKomponents/Posts";
-import MiniPosts from "./MainBlogsKomponents/MiniPosts";
-import BlogPost from "./MainBlogsKomponents/BlogPost";
-import PopularPosts from "./MainBlogsKomponents/PopularPosts";
-import RecentPosts from "./MainBlogsKomponents/ResentPosts";
-import GearIUse from "./MainBlogsKomponents/GearIUse";
-import Products from "./MainBlogsKomponents/Products";
-import GetInTouch from "./MainBlogsKomponents/GetInTouch";
+import Posts from "./MainBlogsComponents/Posts";
+import MiniPosts from "./MainBlogsComponents/MiniPosts";
+import BlogPost from "./MainBlogsComponents/BlogPost";
+import PopularPosts from "./MainBlogsComponents/PopularPosts";
+import RecentPosts from "./MainBlogsComponents/ResentPosts";
+import GearIUse from "./MainBlogsComponents/GearIUse";
+import Products from "./MainBlogsComponents/Products";
+import GetInTouch from "./MainBlogsComponents/GetInTouch";
 
 import post1 from "../assets/post1.png";
 import post2 from "../assets/post2.png";

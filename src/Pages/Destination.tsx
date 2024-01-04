@@ -1,4 +1,10 @@
+import DestinationHero from "../componens/DestinationComponents/DEstinationHero";
+
 const Destination = () => {
-  return <div>Destination</div>;
+  return (
+    <div>
+      <DestinationHero />
+    </div>
+  );
 };
 export default Destination;

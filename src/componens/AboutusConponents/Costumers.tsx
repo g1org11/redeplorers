@@ -40,6 +40,7 @@ const ConstumersContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 177px;
 `;
 const Wrapper = styled.div`
   width: 349px;

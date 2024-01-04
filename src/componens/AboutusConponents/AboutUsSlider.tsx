@@ -19,7 +19,7 @@ const AboutUsSlider = () => {
     infinite: true,
     slidesToShow: 5,
     swipeToSlide: true,
-    afterChange: function (index) {
+    afterChange: function (index: number) {
       console.log(`Slider Changed to: ${index + 1}, background: #222; color: #bada55`);
     },
   };
