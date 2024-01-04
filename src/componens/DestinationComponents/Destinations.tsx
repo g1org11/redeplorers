@@ -9,8 +9,7 @@ import card6 from "../../assets/destination/card6.png";
 import card7 from "../../assets/destination/card7.png";
 import card8 from "../../assets/destination/card8.png";
 import card9 from "../../assets/destination/card9.png";
-
-import Destinationcards from "./destinationCards";
+import Destinationcards from "./DestinationCards";
 import { useState } from "react";
 
 const Destinations = () => {
@@ -184,7 +183,6 @@ const Destinations = () => {
       // Add more cards for Africa
     ],
   };
-
   const getCardsForRegion = () => {
     return regionCards[activeRegion] || [];
   };

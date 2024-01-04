@@ -3,15 +3,21 @@ import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import loc from "../../assets/loc.svg";
 import messege from "../../assets/messege.svg";
-// interface DestinationcardsProps {
-//   img: string;
-//   title: string;
-//   date: string;
-//   location: string;
-//   comments: string;
-// }
+interface DestinationcardsProps {
+  img: string;
+  title: string;
+  date: string;
+  location: string;
+  comments: string;
+}
 
-const Destinationcards = ({ img, title, date, location, comments }) => {
+const Destinationcards: React.FC<DestinationcardsProps> = ({
+  img,
+  title,
+  date,
+  location,
+  comments,
+}) => {
   return (
     <MiniPostContainers>
       <img src={img} alt="post1" />
