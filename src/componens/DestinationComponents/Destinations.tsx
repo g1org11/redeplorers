@@ -12,13 +12,28 @@ import card9 from "../../assets/destination/card9.png";
 import Destinationcards from "./DestinationCards";
 import { useState } from "react";
 
+interface RegionCard {
+  img: string;
+  date: string;
+  title: string;
+  location: string;
+  comments: string;
+}
+
+interface RegionCards {
+  [key: string]: RegionCard[];
+}
+interface HeaderItemProps {
+  active: boolean;
+  onClick: () => void;
+}
 const Destinations = () => {
   const [activeRegion, setActiveRegion] = useState("Europe");
 
-  const handleHeaderClick = (region) => {
+  const handleHeaderClick = (region: string) => {
     setActiveRegion(region);
   };
-  const regionCards = {
+  const regionCards: RegionCards = {
     Europe: [
       {
         img: card1,
@@ -236,7 +251,7 @@ const DestinationHeader = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
-const HeaderItem = styled.p`
+const HeaderItem = styled.p<HeaderItemProps>`
   width: 300px;
   height: 88px;
   display: flex;
