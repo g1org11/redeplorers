@@ -94,6 +94,9 @@ const InfoWrapper = styled.div`
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
 
   background: rgba(0, 0, 0, 0.68);
   padding: 40px 120px 100px 177px;
@@ -122,6 +125,7 @@ const Info = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-left: 65px;
 `;
 
 const BodyDiv = styled.ul`
@@ -135,6 +139,7 @@ const Address = styled.li`
 `;
 const Informations = styled.div`
   display: flex;
+  margin-right: 60px;
 `;
 const Account = styled.div`
   margin-left: 150px;

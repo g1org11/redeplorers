@@ -10,7 +10,6 @@ import card9 from "../../assets/tips/card9.png";
 
 import Card from "./Card";
 import styled from "styled-components";
-import React from "react";
 
 const TipCards = () => {
   return (
