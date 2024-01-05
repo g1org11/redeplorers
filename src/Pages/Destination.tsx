@@ -1,4 +1,4 @@
-import DestinationHero from "../componens/DestinationComponents/DEstinationHero";
+import DestinationHero from "../componens/DestinationComponents/DestinationHero";
 import DestinationBlog from "../componens/DestinationComponents/DestinationBlog";
 import Destinations from "../componens/DestinationComponents/Destinations";
 import Footer from "../componens/Footer";
