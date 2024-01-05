@@ -4,7 +4,12 @@ import star from "../../assets/tips/Star.png";
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 
-const Card = ({ img, title }) => {
+interface CardProps {
+  img: string;
+  title: string;
+  // You can add more props here if needed
+}
+const Card: React.FC<CardProps> = ({ img, title }) => {
   return (
     <CardContent>
       <Image src={img} alt="card1" />

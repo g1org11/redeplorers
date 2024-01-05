@@ -1,4 +1,3 @@
-import React from "react";
 import recent1 from "../../assets/recent1.png";
 import recent2 from "../../assets/recent2.png";
 import recent3 from "../../assets/recent3.png";
