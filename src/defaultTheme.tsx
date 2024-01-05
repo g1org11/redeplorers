@@ -6,6 +6,8 @@ export const defaultTheme = {
     blue: "#0336FF",
     darkblue: "#14142B",
     gray: "#6E7191",
+    graytwo: "#DDE2E5",
+    lightpurpul: "#6E7191",
   },
   background: "#FFFEFE",
   fonts: {
