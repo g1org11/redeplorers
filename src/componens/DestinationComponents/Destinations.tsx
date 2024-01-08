@@ -11,6 +11,7 @@ import card8 from "../../assets/destination/card8.png";
 import card9 from "../../assets/destination/card9.png";
 import Destinationcards from "./DestinationCards";
 import { useState } from "react";
+import React from "react";
 
 interface RegionCard {
   img: string;
