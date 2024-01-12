@@ -8,6 +8,7 @@ import mainslider3 from "../../assets/mainslider3.png";
 import mainslider4 from "../../assets/mainslider4.png";
 import mainslider5 from "../../assets/mainslider5.png";
 import styled from "styled-components";
+import React from "react";
 // import "./slider.css";
 
 const SimpleSlider = () => {

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import loc from "../../assets/loc.svg";
 import messege from "../../assets/messege.svg";
+
 interface MiniPostsProps {
   img: string;
   title: string;

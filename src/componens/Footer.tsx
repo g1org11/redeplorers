@@ -2,6 +2,7 @@ import styled from "styled-components";
 import logo from "../assets/Logo.svg";
 import { defaultTheme } from "../defaultTheme";
 import { Link } from "react-router-dom";
+import React from "react";
 
 const Footer = () => {
   return (

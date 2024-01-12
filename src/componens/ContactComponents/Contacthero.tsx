@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import contacthero from "../../assets/contact/contacthero.png";
+import React from "react";
 
 const ContactHero = () => {
   return (

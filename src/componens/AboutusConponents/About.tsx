@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import dots from "../../assets/aboutus/dots.png";
+import React from "react";
 
 const About = () => {
   return (

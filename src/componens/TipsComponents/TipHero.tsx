@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import tipshero from "../../assets/tips/tipshero.png";
+import React from "react";
 
 const TipsHero = () => {
   return (

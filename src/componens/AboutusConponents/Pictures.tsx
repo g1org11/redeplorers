@@ -3,6 +3,7 @@ import tesla from "../../assets/aboutus/tesla.png";
 import kitkat from "../../assets/aboutus/kitkat.png";
 import boss from "../../assets/aboutus/boss.png";
 import styled from "styled-components";
+import React from "react";
 
 const Pictures = () => {
   return (

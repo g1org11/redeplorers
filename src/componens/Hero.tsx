@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { defaultTheme } from "../defaultTheme";
 import heroimg from "../assets/mian1.png";
 import location from "../assets/location.png";
+import React from "react";
 
 const Hero = () => {
   return (

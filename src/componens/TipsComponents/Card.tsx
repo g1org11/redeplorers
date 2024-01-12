@@ -3,6 +3,7 @@ import communication from "../../assets//tips/Communication.png";
 import star from "../../assets/tips/Star.png";
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
+import React from "react";
 
 interface CardProps {
   img: string;

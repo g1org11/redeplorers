@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
+import React from "react";
 
 import loc from "../../assets/loc.svg";
 import messege from "../../assets/messege.svg";

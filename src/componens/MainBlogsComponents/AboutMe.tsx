@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
 import aboutmeimg from "../../assets/aboutmeimg.png";
+import React from "react";
 
 const AboutMe = () => {
   return (

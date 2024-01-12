@@ -19,6 +19,7 @@ import minipostimg3 from "../assets/minipost3.png";
 import minipostimg4 from "../assets/minipost4.png";
 import minipostimg5 from "../assets/minipost5.png";
 import minipostimg6 from "../assets/minipost6.png";
+import React from "react";
 
 const MainBlogs = () => {
   return (

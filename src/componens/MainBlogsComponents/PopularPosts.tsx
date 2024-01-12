@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { defaultTheme } from "../../defaultTheme";
-
+import React from "react";
 import styled from "styled-components";
 import img1 from "../../assets/minipost1.png";
 import img2 from "../..//assets/minipost2.png";

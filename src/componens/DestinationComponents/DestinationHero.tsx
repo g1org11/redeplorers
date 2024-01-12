@@ -1,6 +1,7 @@
 import hero from "../../assets/destination/herodestination.png";
 import styled from "styled-components";
 import { defaultTheme } from "../../defaultTheme";
+import React from "react";
 
 const DestinationHero = () => {
   return (
