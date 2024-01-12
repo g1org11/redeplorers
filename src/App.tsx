@@ -8,6 +8,7 @@ import Tips from "./Pages/Tips";
 import Contact from "./Pages/Contact";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import MainPage from "./Pages/MainPage";
+import React from "react";
 
 function App() {
   return (

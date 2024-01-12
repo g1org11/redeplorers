@@ -8,6 +8,7 @@ import Costumers from "../componens/AboutusConponents/Costumers";
 import AboutUsSlider from "../componens/AboutusConponents/AboutUsSlider";
 import Subscribe from "../componens/Subscribe";
 import Footer from "../componens/Footer";
+import React from "react";
 
 const AboutUs = () => {
   return (

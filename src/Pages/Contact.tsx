@@ -3,6 +3,7 @@ import ContactForms from "../componens/ContactComponents/ContactForms";
 import ContactHero from "../componens/ContactComponents/Contacthero";
 import Footer from "../componens/Footer";
 import Subscribe from "../componens/Subscribe";
+import React from "react";
 
 const Contact = () => {
   return (

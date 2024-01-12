@@ -4,6 +4,7 @@ import Destinations from "../componens/DestinationComponents/Destinations";
 import Footer from "../componens/Footer";
 import SimpleSlider from "../componens/MainBlogsComponents/Slider";
 import Subscribe from "../componens/Subscribe";
+import React from "react";
 
 const Destination = () => {
   return (

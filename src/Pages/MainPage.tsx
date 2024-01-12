@@ -4,6 +4,7 @@ import MainBlogs from "../componens/MainBlogs";
 import Slider from "../componens/MainBlogsComponents/Slider";
 import Subscribe from "../componens/Subscribe";
 import Footer from "../componens/Footer";
+import React from "react";
 
 const MainPage = () => {
   return (
