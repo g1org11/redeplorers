@@ -13,28 +13,13 @@ import Destinationcards from "./DestinationCards";
 import { useState } from "react";
 import React from "react";
 
-interface RegionCard {
-  img: string;
-  date: string;
-  title: string;
-  location: string;
-  comments: string;
-}
-
-interface RegionCards {
-  [key: string]: RegionCard[];
-}
-interface HeaderItemProps {
-  active: boolean;
-  onClick: () => void;
-}
 const Destinations = () => {
   const [activeRegion, setActiveRegion] = useState("Europe");
 
-  const handleHeaderClick = (region: string) => {
+  const handleHeaderClick = (region) => {
     setActiveRegion(region);
   };
-  const regionCards: RegionCards = {
+  const regionCards = {
     Europe: [
       {
         img: card1,
